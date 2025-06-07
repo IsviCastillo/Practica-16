@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastelería Aurora</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="fade-in">
+        <nav>
+            <div class="logo">Pastelería Aurora</div>
+            <button class="menu-toggle" aria-label="Menú">☰</button>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="btn book-btn">Reservar</button>
+        </nav>
+
+        <div class="hero-text" id="inicio">
+            <div class="hero-bg">
+                <img src="https://res.cloudinary.com/djzo0ohka/image/upload/v1749326928/Banner_Horizontal_Web_Nuevo_Roll_de_Pistacho_Pasteler%C3%ADa_Fotogr%C3%A1fico_Blanco_y_Verde_fco3ux.png" alt="Banner de la pastelería">
+            </div>
+            <h1>El mejor restaurante de lujo en El Salvador</h1>
+            <button class="btn">Explora nuestro menú</button>
+        </div>
+    </header>
+
+    <section class="menu fade-in" id="menu">
+        <h2>Nuestros Platillos</h2>
+    
+        <div class="menu-row">
+            <div class="menu-card">
+                <img src="https://www.abc.com.py/resizer/v2/OKRMBNC3DFDVRLMGVINNF4IWJU.jpg?auth=191cd52eb2cab8b49bde6d380dcc7f164cf6a600204e8beb58e0c33c9e654b70" alt="Plato 1">
+                <h3>Cheesecake de Oreo</h3>
+                <p>Una deliciosa tarta de queso con base de galleta Oreo triturada, rellena de una suave mezcla de queso crema y trozos de Oreo.</p>
+            </div>
+            <div class="menu-card">
+                <img src="https://mylatinatable.com/wp-content/uploads/2016/04/hojaldre-3-1024x675.jpg" alt="Plato 2">
+                <h3>Milhojas de crema y fresas</h3>
+                <p>Capas crujientes de hojaldre intercaladas con crema pastelera y fresas.</p>
+            </div>
+            <div class="menu-card">
+                <img src="https://imag.bonviveur.com/cinnamon-rolls.jpg" alt="Plato 3">
+                <h3>Rollos de canela</h3>
+                <p>Masa suave en espiral rellena de canela y azúcar, horneada hasta dorar y cubierta con glaseado de vainilla o queso crema.</p>
+            </div>
+        </div>
+        
+        <div class="menu-row">
+            <div class="menu-card">
+                <img src="https://eggs.ca/wp-content/uploads/2015/08/One-Bowl-Banana-Chocolate-Chip-Muffins-1664x832-1.jpg" alt="Plato 4">
+                <h3>Muffins</h3>
+                <p>Esponjosos pastelitos horneados con chispas de chocolate, ideales para acompañar un café o disfrutar como snack dulce.</p>
+            </div>
+            <div class="menu-card">
+                <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/tres_leches_cake_27471_16x9.jpg" alt="Plato 5">
+                <h3> Pastel Tres Leches</h3>
+                <p>Bizcocho suave y esponjoso bañado en una mezcla de tres tipos de leche, cubierto con crema batida y canela.</p>
+            </div>
+            <div class="menu-card">
+                <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2023/06/Duck-Donuts.jpg?quality=82&strip=1" alt="Plato 6">
+                <h3>Donas glaseadas</h3>
+                <p>Deliciosas donas suaves decoradas con coloridos glaseados y toppings variados, perfectas para compartir.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div>© 2025 Pastelería Aurora. Todos los derechos reservados.</div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
